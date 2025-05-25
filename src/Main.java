@@ -15,10 +15,10 @@ public class Main {
         String sinopse1;
         String sinopse2;
         System.out.println("");
-        sinopse1 = "Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,\n Pete \"Maverick\" Mitchell está de volta, rompendo os limites como um piloto\n de testes corajoso. No mundo contemporâneo das guerras tecnológicas,\n Maverick enfrenta drones e prova que o fator humano ainda é essencial." + "\n" + anoDeLancamento;
+        sinopse1 = " Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,\n Pete \"Maverick\" Mitchell está de volta, rompendo os limites como um piloto\n de testes corajoso. No mundo contemporâneo das guerras tecnológicas,\n Maverick enfrenta drones e prova que o fator humano ainda é essencial." + "\n" + anoDeLancamento;
 
         sinopse2 = String.format("""
-                Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,
+                 Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,
                  Pete "Maverick" Mitchell está de 
                  volta,rompendo os limites como um piloto
                  de testes corajoso. No mundo
@@ -28,6 +28,10 @@ public class Main {
                 """,anoDeLancamento);
 
         System.out.println(sinopse1 + "\n\n" + sinopse2);
+        //Casting
+        int classificacao = (int) (media/2);
+
+        System.out.println(classificacao);
 
     }
 }
